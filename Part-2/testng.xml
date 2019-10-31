@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="UTC_TESTNG">
+		<classes>
+			<class name="com.ovs.tests.UTC02_WelcomeToTestng" />
+			<class name="com.ovs.tests.UTC01_HelloTestng" />
+		</classes>
+	</test>
+</suite> 
